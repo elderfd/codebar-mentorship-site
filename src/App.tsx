@@ -11,9 +11,9 @@ const App: React.FC = () => {
         <nav className="SiteNav">
             <div className="NavContainer">
                 <ul>
-                    <li><Link activeClass="active" to="about" smooth={true} duration={500} spy={true}>About</Link></li>
-                    <li><Link activeClass="active" to="forMentors" smooth={true} duration={500} spy={true}>For Mentors</Link></li>
-                    <li><Link activeClass="active" to="forMentees" smooth={true} duration={500} spy={true}>For Mentees</Link></li>
+                    <li><Link activeClass="active" to="about" smooth={true} duration={500} spy={true} offset={-75}>About</Link></li>
+                    <li><Link activeClass="active" to="forMentors" smooth={true} duration={500} spy={true} offset={-75}>For Mentors</Link></li>
+                    <li><Link activeClass="active" to="forMentees" smooth={true} duration={500} spy={true} offset={-75}>For Mentees</Link></li>
                 </ul>
             </div>
         </nav>
